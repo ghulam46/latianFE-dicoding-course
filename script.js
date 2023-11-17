@@ -11,4 +11,9 @@ const createElement = document.getElementsByClassName("createElement");
 
 newElement.innerHTML = "Laboris ea culpa nostrud ex elit aliquip eiusmod esse voluptate incididunt officia Lorem excepteur qui."
 
-console.log(newElement)
+// console.log(newElement)
+
+const newImg = document.createElement("img");
+newImg.setAttribute("src", "https://www.google.com");
+
+console.log(newImg);
