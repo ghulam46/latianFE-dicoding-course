@@ -5,3 +5,10 @@ for(let items of buttons) {
 }
 
 // console.log(buttons);
+
+const newElement = document.createElement("p");
+const createElement = document.getElementsByClassName("createElement");
+
+newElement.innerHTML = "Laboris ea culpa nostrud ex elit aliquip eiusmod esse voluptate incididunt officia Lorem excepteur qui."
+
+console.log(newElement)
