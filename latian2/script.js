@@ -8,4 +8,5 @@ const buttons = document.querySelectorAll(".button");
 const playButton = buttons[3]; // Get div button play
 
 const playButtonElement = playButton.children[0]; // Get children button play
+playButtonElement.setAttribute("type", "submit");
 console.log(playButtonElement);
