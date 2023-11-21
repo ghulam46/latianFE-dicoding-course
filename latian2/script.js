@@ -12,4 +12,7 @@ playButtonElement.setAttribute("type", "submit");
 // console.log(playButtonElement);
 
 const links = document.getElementById("links");
-links.innerText = "Halo ini testing innerText";
+// links.innerText = "Halo ini testing innerText";
+
+const dicoding = document.getElementById("dicodingLink");
+dicoding.innerText = "Belajar pemrograman di Dicoding";
