@@ -9,4 +9,7 @@ const playButton = buttons[3]; // Get div button play
 
 const playButtonElement = playButton.children[0]; // Get children button play
 playButtonElement.setAttribute("type", "submit");
-console.log(playButtonElement);
+// console.log(playButtonElement);
+
+const links = document.getElementById("links");
+links.innerText = "Halo ini testing innerText";
