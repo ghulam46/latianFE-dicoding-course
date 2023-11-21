@@ -21,5 +21,5 @@ dicoding.innerHTML = "<i>Belajar pemrograman di Dicoding</i>";
 
 
 for (const button of buttons) {
-    console.log(button.children[0]);
+    button.children[0].style.borderRadius = '6px';
 }
