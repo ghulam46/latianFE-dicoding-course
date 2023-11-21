@@ -18,3 +18,8 @@ const dicoding = document.getElementById("dicodingLink");
 dicoding.innerText = "Belajar pemrograman di Dicoding";
 
 dicoding.innerHTML = "<i>Belajar pemrograman di Dicoding</i>";
+
+
+for (const button of buttons) {
+    console.log(button.children[0]);
+}
