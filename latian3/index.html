@@ -38,6 +38,15 @@
 
   function increment() {
     document.getElementById("count").innerText++;
+
+    if(document.getElementById("count").innerText == 5) {
+      const hiddenMessage = document.createElement('h4');
+      hiddenMessage.innerText = "Selamat! Anda menemukan hadiah tersembunyi...";
+      const image = document.createElement('img');
+      image.setAttribute('src', 'https://i.ibb.co/0V49VRZ/catto.jpg');
+      const content = document.querySelector('.contents');
+      content.appendChild(hiddenMessage).appendChild(image);
+    }
   }
 
   document.getElementById("incrementButton").onclick = increment;
